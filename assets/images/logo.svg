@@ -27,5 +27,5 @@
   <!-- Decorative line -->
   <line x1="200" y1="195" x2="500" y2="195" stroke="#e63946" stroke-width="2" />
   <!-- Tagline -->
-  <text x="350" y="225" text-anchor="middle" class="tagline" font-size="13" text-transform="uppercase">BYTE-SIZED STORIES FROM THE INTERNET AGE</text>
+  <text x="350" y="225" text-anchor="middle" class="tagline" font-size="13" text-transform="uppercase">YOUR PLAIN-ENGLISH GUIDE TO CLAUDE AI</text>
 </svg>
