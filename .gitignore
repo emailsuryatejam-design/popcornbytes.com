@@ -5,6 +5,7 @@ error.log
 # Environment files
 .env
 .env.*
+includes/secrets.php
 
 # Editor files
 *.swp

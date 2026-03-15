@@ -35,8 +35,14 @@ define('SOCIAL_INSTAGRAM', '');
 // Contact
 define('CONTACT_EMAIL', 'hello@popcornbytes.com');
 
-// Newsletter (Google Apps Script Web App)
-define('NEWSLETTER_ENDPOINT', 'https://script.google.com/macros/s/AKfycbym16LG1EkdJlmD1APFaUWHH15YUDd0BIivpXupU_1eVn8a34KBPNoQhdTPhHI2yaHw/exec');
+// Newsletter (Mailchimp) — real values in includes/secrets.php (git-ignored)
+if (file_exists(__DIR__ . '/secrets.php')) {
+    require_once __DIR__ . '/secrets.php';
+} else {
+    define('MAILCHIMP_API_KEY', '');
+    define('MAILCHIMP_DC',      '');
+    define('MAILCHIMP_LIST_ID', '');
+}
 
 // PHP settings for Hostinger
 ini_set('display_errors', 0);

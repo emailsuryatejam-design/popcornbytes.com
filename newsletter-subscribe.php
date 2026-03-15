@@ -18,25 +18,35 @@ if (!$email || !filter_var($email, FILTER_VALIDATE_EMAIL)) {
     exit;
 }
 
-// Forward to Google Apps Script
-$ch = curl_init(NEWSLETTER_ENDPOINT);
+$url  = 'https://' . MAILCHIMP_DC . '.api.mailchimp.com/3.0/lists/' . MAILCHIMP_LIST_ID . '/members';
+$data = json_encode([
+    'email_address' => $email,
+    'status'        => 'subscribed',
+]);
+
+$ch = curl_init($url);
 curl_setopt_array($ch, [
     CURLOPT_POST           => true,
-    CURLOPT_POSTFIELDS     => http_build_query(['email' => $email]),
+    CURLOPT_POSTFIELDS     => $data,
     CURLOPT_RETURNTRANSFER => true,
     CURLOPT_TIMEOUT        => 10,
-    CURLOPT_FOLLOWLOCATION => true,
-    CURLOPT_SSL_VERIFYPEER => true,
+    CURLOPT_HTTPHEADER     => [
+        'Content-Type: application/json',
+        'Authorization: Basic ' . base64_encode('anystring:' . MAILCHIMP_API_KEY),
+    ],
 ]);
+
 $response = curl_exec($ch);
-$error    = curl_error($ch);
+$httpCode = curl_getinfo($ch, CURLINFO_HTTP_CODE);
 curl_close($ch);
 
-if ($error) {
-    http_response_code(500);
-    echo json_encode(['success' => false, 'message' => 'Could not connect. Please try again.']);
-    exit;
-}
+$body = json_decode($response, true);
 
-$data = json_decode($response, true);
-echo json_encode($data ?? ['success' => false, 'message' => 'Unexpected error.']);
+if ($httpCode === 200) {
+    echo json_encode(['success' => true, 'message' => 'Subscribed!']);
+} elseif ($httpCode === 400 && isset($body['title']) && $body['title'] === 'Member Exists') {
+    echo json_encode(['success' => true, 'message' => 'Already subscribed!']);
+} else {
+    $msg = isset($body['detail']) ? $body['detail'] : 'Something went wrong. Please try again.';
+    echo json_encode(['success' => false, 'message' => $msg]);
+}
