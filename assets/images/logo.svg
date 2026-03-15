@@ -1,21 +1,32 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 280 52" width="280" height="52">
-  <defs>
-    <style>
-      .logo-wordmark { font-family: 'Georgia', serif; font-weight: 700; fill: #ffffff; }
-      .logo-dot { fill: #e63946; }
-      .logo-tag { font-family: 'Arial', sans-serif; font-weight: 400; fill: rgba(255,255,255,0.6); letter-spacing: 0.08em; }
-    </style>
-  </defs>
-  <!-- Popcorn icon - simple stylised kernel -->
-  <g transform="translate(0, 4)">
-    <circle cx="14" cy="14" r="5" fill="#e63946" opacity="0.9"/>
-    <circle cx="22" cy="10" r="4" fill="#e63946" opacity="0.75"/>
-    <circle cx="8"  cy="10" r="4" fill="#e63946" opacity="0.75"/>
-    <rect x="6" y="17" width="22" height="16" rx="3" fill="#e63946" opacity="0.9"/>
-    <line x1="17" y1="17" x2="17" y2="33" stroke="rgba(255,255,255,0.3)" stroke-width="1"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 44" width="220" height="44" role="img" aria-label="PopcornBytes">
+  <title>PopcornBytes</title>
+
+  <!-- Popcorn bucket icon -->
+  <g transform="translate(1,1)">
+    <!-- Popcorn kernels popping out -->
+    <circle cx="7"  cy="10" r="6"   fill="#e63946"/>
+    <circle cx="20" cy="5"  r="7"   fill="#ff5562"/>
+    <circle cx="33" cy="10" r="6"   fill="#e63946"/>
+
+    <!-- Bucket rim -->
+    <rect x="2" y="14" width="36" height="6" rx="2" fill="#c8202c"/>
+
+    <!-- Bucket body (trapezoid via polygon) -->
+    <polygon points="4,20 7,42 33,42 36,20" fill="#e63946"/>
+
+    <!-- Centre stripe -->
+    <line x1="20" y1="20" x2="20" y2="42" stroke="rgba(255,255,255,0.22)" stroke-width="2"/>
+
+    <!-- Left stripe -->
+    <line x1="12" y1="20" x2="10" y2="42" stroke="rgba(255,255,255,0.12)" stroke-width="1.5"/>
   </g>
+
   <!-- Wordmark -->
-  <text x="40" y="24" class="logo-wordmark" font-size="20">Popcorn<tspan fill="#e63946">Bytes</tspan></text>
-  <!-- Tagline -->
-  <text x="40" y="40" class="logo-tag" font-size="9">CLAUDE AI &amp; THE FUTURE OF WORK</text>
+  <text
+    x="50" y="30"
+    font-family="'Arial Black','Helvetica Neue',Arial,sans-serif"
+    font-weight="900"
+    font-size="21"
+    letter-spacing="-0.3"
+    fill="#ffffff">Popcorn<tspan fill="#e63946">Bytes</tspan></text>
 </svg>

@@ -21,7 +21,7 @@
             <div class="footer-grid">
                 <div class="footer-about">
                     <a href="/" class="footer-logo">
-                        <img src="/assets/images/logo.svg" alt="<?= e(SITE_NAME) ?>" class="logo-img logo-img-footer" width="160" height="42">
+                        <img src="/assets/images/logo.png" alt="<?= e(SITE_NAME) ?>" class="logo-img logo-img-footer" width="180" height="67">
                     </a>
                     <p><?= e(SITE_DESCRIPTION) ?></p>
                 </div>
