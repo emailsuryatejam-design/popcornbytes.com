@@ -1,0 +1,25 @@
+# Logs
+error.log
+*.log
+
+# Environment files
+.env
+.env.*
+
+# Editor files
+*.swp
+*.swo
+*~
+.idea/
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Cache
+cache/
+
+# Admin temp scripts
+admin/download-direct.php
+admin/download-images-direct.sh

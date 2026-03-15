@@ -1,0 +1,25 @@
+# Image Attribution
+
+All images sourced from [Unsplash](https://unsplash.com) under the Unsplash License.
+
+- **100-things-we-lost-to-the-internet.jpg**: Photo by [Planet Volumes](https://unsplash.com/@planetvolumes) on [Unsplash](https://unsplash.com/photos/a-stack-of-old-televisions-sitting-on-top-of-each-other-PAyhLunLfxE)
+- **why-nobody-memorizes-phone-numbers.jpg**: Photo by [Quino Al](https://unsplash.com/@quinoal) on [Unsplash](https://unsplash.com/photos/black-rotary-dial-phone-on-white-surface-8gWEAAXJjtI)
+- **the-death-of-getting-lost.jpg**: Photo by [Chris Lawton](https://unsplash.com/@chrislawton) on [Unsplash](https://unsplash.com/photos/compass-on-map-book-page-o0l-M8W_7wA)
+- **rise-and-fall-of-the-away-message.jpg**: Photo by [Allison Saeng](https://unsplash.com/@allisonsaeng) on [Unsplash](https://unsplash.com/photos/an-old-computer-with-a-heart-on-the-screen-BF9I4IwF6xs)
+- **when-boredom-was-a-feature.jpg**: Photo by [Souvik](https://unsplash.com/@wanderlustbong) on [Unsplash](https://unsplash.com/photos/person-sitting-beside-window-on-brown-wooden-wall-B7wNw1GRv00)
+- **the-lost-art-of-the-mix-tape.jpg**: Photo by [henry perks](https://unsplash.com/@hjkp) on [Unsplash](https://unsplash.com/photos/black-cassette-tape-on-white-table-1VMFqrFUYvE)
+- **when-downloading-a-song-took-all-night.jpg**: Photo by [Stephen Phillips - Hostreviews.co.uk](https://unsplash.com/@hostreviews) on [Unsplash](https://unsplash.com/photos/white-modem-outer-is-turned-on-LR_wX_klOPM)
+- **the-forgotten-joy-of-saturday-morning-cartoons.jpg**: Photo by [Pawel Kadysz](https://unsplash.com/@pawelkadysz) on [Unsplash](https://unsplash.com/photos/an-old-fashioned-television-set-with-a-white-screen-yKPj4oi9m74)
+- **21-things-the-internet-quietly-killed.jpg**: Photo by [Yogas Design](https://unsplash.com/@yogasdesign) on [Unsplash](https://unsplash.com/photos/person-using-smartphone-and-laptop-computer-J6Qn9sE4aKM)
+- **anemoia-why-gen-z-misses-a-world-they-never-lived-in.jpg**: Photo by [Chris Lawton](https://unsplash.com/@chrislawton) on [Unsplash](https://unsplash.com/photos/vhs-tape-lot-Hys5qHaDbZQ)
+- **the-dumb-phone-revolution.jpg**: Photo by [Vinicius "amnx" Amano](https://unsplash.com/@viniciusamano) on [Unsplash](https://unsplash.com/photos/yellow-nokia-phone-on-yellow-and-white-polka-dot-textile-MBKavovwnw8)
+- **your-brain-on-doomscrolling.jpg**: Photo by [Christian Wiediger](https://unsplash.com/@christianw) on [Unsplash](https://unsplash.com/photos/person-using-smartphone-GWkioAj5aB4)
+- **jobs-ai-still-cant-do.jpg**: Photo by [Adi Goldstein](https://unsplash.com/@adigold1) on [Unsplash](https://unsplash.com/photos/person-holding-bosch-power-tool-aO4c6o4H2MI)
+- **how-dating-apps-killed-the-meet-cute.jpg**: Photo by [Curated Lifestyle](https://unsplash.com/@curatedlifestyle) on [Unsplash](https://unsplash.com/photos/friends-talking-at-a-cafe-Cc6gqX7GLMo)
+- **the-analog-revival.jpg**: Photo by [Ivan Dorofeev](https://unsplash.com/@divandor) on [Unsplash](https://unsplash.com/photos/black-vinyl-record-on-turntable-bsLXJsucvxc)
+- **digital-amnesia-why-you-cant-remember-anything.jpg**: Photo by [Zoha Gohar](https://unsplash.com/@zoeey97) on [Unsplash](https://unsplash.com/photos/abstract-flowing-lines-with-yellow-light-accents-L8uRhNnkrM0)
+- **subscription-economy-ate-your-wallet.jpg**: Photo by [PiggyBank](https://unsplash.com/@piggybank) on [Unsplash](https://unsplash.com/photos/a-wallet-with-credit-cards-sticking-out-of-it-oqkmdriPiHM)
+- **the-death-of-couch-co-op.jpg**: Photo by [Oleg Ivanov](https://unsplash.com/@olegivanovpht) on [Unsplash](https://unsplash.com/photos/two-people-sitting-on-a-couch-playing-a-video-game-dwmD4XxbE1g)
+- **denmark-banned-screens-in-classrooms.jpg**: Photo by [Austrian National Library](https://unsplash.com/@austriannationallibrary) on [Unsplash](https://unsplash.com/photos/grayscale-photography-of-teacher-standing-near-chalkboard-and-children-sitting-on-chairs-GxB6Pbi4Jzg)
+- **a-sense-of-hope-we-cant-download-back.jpg**: Photo by [ekrem osmanoglu](https://unsplash.com/@konevi) on [Unsplash](https://unsplash.com/photos/horizon-at-sunrise-with-gradient-sky-oK-IBmy9kQg)
+- **default-og.jpg**: Photo by [Andrej Lišakov](https://unsplash.com/@lishakov) on [Unsplash](https://unsplash.com/photos/a-person-holding-a-cup-of-popcorn-and-a-drink-o0IHdkYfx0A)

@@ -1,0 +1,14 @@
+# PopcornBytes - robots.txt
+# https://popcornbytes.com
+
+User-agent: *
+Allow: /
+
+# Block access to internal directories
+Disallow: /includes/
+Disallow: /templates/
+Disallow: /posts/
+Disallow: /admin/
+
+# Sitemap
+Sitemap: https://popcornbytes.com/sitemap.xml
