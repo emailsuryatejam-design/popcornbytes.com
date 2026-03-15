@@ -42,9 +42,10 @@
                     <div class="sidebar-widget sidebar-cta">
                         <h3>Claude Updates, Weekly</h3>
                         <p>Get our latest Claude AI guides, comparisons, and tips &mdash; no spam, unsubscribe anytime.</p>
-                        <form class="newsletter-form" action="/contact" method="get">
+                        <form class="newsletter-form pcb-newsletter" data-form-id="sidebar">
                             <input type="email" name="email" placeholder="you@email.com" required aria-label="Email address">
                             <button type="submit" class="btn btn-primary">Subscribe Free</button>
+                            <p class="newsletter-msg" aria-live="polite"></p>
                         </form>
                     </div>
 

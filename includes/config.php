@@ -35,6 +35,9 @@ define('SOCIAL_INSTAGRAM', '');
 // Contact
 define('CONTACT_EMAIL', 'hello@popcornbytes.com');
 
+// Newsletter (Google Apps Script Web App)
+define('NEWSLETTER_ENDPOINT', 'https://script.google.com/macros/s/AKfycbym16LG1EkdJlmD1APFaUWHH15YUDd0BIivpXupU_1eVn8a34KBPNoQhdTPhHI2yaHw/exec');
+
 // PHP settings for Hostinger
 ini_set('display_errors', 0);
 error_reporting(E_ALL);

@@ -48,9 +48,10 @@
                 <div class="footer-newsletter">
                     <h3>Weekly AI Digest</h3>
                     <p>Claude updates, honest reviews, and productivity tips &mdash; every week, free.</p>
-                    <form class="newsletter-form" action="/contact" method="get">
+                    <form class="newsletter-form pcb-newsletter" data-form-id="footer">
                         <input type="email" name="email" placeholder="Your email address" required aria-label="Email address">
                         <button type="submit" class="btn btn-primary">Subscribe Free</button>
+                        <p class="newsletter-msg" aria-live="polite"></p>
                     </form>
                 </div>
             </div>
@@ -108,6 +109,44 @@
         localStorage.setItem('cookie_consent', 'essential');
         document.getElementById('cookie-consent').style.display = 'none';
     }
+
+    // Newsletter AJAX submission
+    document.querySelectorAll('.pcb-newsletter').forEach(function(form) {
+        form.addEventListener('submit', function(e) {
+            e.preventDefault();
+            var btn = form.querySelector('button[type="submit"]');
+            var msg = form.querySelector('.newsletter-msg');
+            var email = form.querySelector('input[type="email"]').value;
+            btn.disabled = true;
+            btn.textContent = 'Subscribing...';
+            msg.style.color = '';
+            msg.textContent = '';
+            fetch('/newsletter-subscribe.php', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+                body: 'email=' + encodeURIComponent(email)
+            })
+            .then(function(r) { return r.json(); })
+            .then(function(data) {
+                if (data.success) {
+                    msg.style.color = '#22c55e';
+                    msg.textContent = "You're in! Check your inbox for a welcome email.";
+                    form.querySelector('input[type="email"]').value = '';
+                } else {
+                    msg.style.color = '#e63946';
+                    msg.textContent = data.message || 'Something went wrong. Please try again.';
+                }
+                btn.disabled = false;
+                btn.textContent = 'Subscribe Free';
+            })
+            .catch(function() {
+                msg.style.color = '#e63946';
+                msg.textContent = 'Network error. Please try again.';
+                btn.disabled = false;
+                btn.textContent = 'Subscribe Free';
+            });
+        });
+    });
 
     // Reveal ad containers only after AdSense fills them
     (function() {
